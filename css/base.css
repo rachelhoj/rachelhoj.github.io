@@ -34,11 +34,16 @@ header nav {
     margin-top: 12px;
 }
 
+header nav a {
+    border: 5px solid #ff0000
+}
+
 header a {
     color: #aaaaaa;
     margin-right:20px;
     text-decoration: none;
 }
+
 
 header a:hover {
     color: #ffffff;

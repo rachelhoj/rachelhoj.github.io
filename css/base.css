@@ -52,6 +52,43 @@ aside{
     width: 20%;
 }
 
+li.bullet {
+    list-style-type:circle;
+}
+
+article h1{
+float:left;
+width: 100%;
+padding: 10px;
+margin: 5px;
+}
+
+article h2{
+float: left;
+width: 100%;
+padding: 5px;
+margin: 5px;
+}
+
+article h3{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+article h4{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+article{
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
 
 
 /*I would like the aside to be flush left on the resume page with the body of the article to be next to it on the right but I can't figure out how to do it*/
@@ -66,6 +103,11 @@ article li{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+div.contact{
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 footer {
@@ -92,14 +134,14 @@ body {
 
 header h1 {
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 600;
     color: #652C90;
     background-color: #ffffff
 }
 
 header h2 {
     font size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     color: #652C90;
 }
 
@@ -112,24 +154,45 @@ nav li {
 }
 
 article h1{
-    font-size: 36px;
-    line-height: 44px;
-    margin-top:4px;
+    font-size: 40px;
+    font-weight:600;
+    line-height: 50px;
+    color: #652C90;
+}
+
+article h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
     color: #262261;
 }
 
-article p{
+article h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #652C90;
+}
+
+article h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #262261;
+}
+/*article p{
     font-size: 16px;
     line-height: 20px;
     margin-top: 4px;
     float: left;
     color: #000000;
-}
+}*/
 
-/*I wanted to put the background color in the footer note but it wouldn't work so I split it up between footernav and footer p*/
+/*I wanted to put the background color in the footer note but it wouldn't work so I split it up between footer nav and footer p*/
 
-footer {
-    font-size: 12px;   
+footer{ 
+    background-color: #262261;
+    font-size: 12px;
 }
 
 footer nav {
@@ -140,6 +203,7 @@ footer p {
     background-color: #262261;
     color: #ffffff
 }
+
 /*Link Rules*/
 nav a {
     color: #ffffff
@@ -155,11 +219,16 @@ header img {
 
 article img{
     float: left;
-    margin: 0 5% 0 5%;
+    margin: 0 5% 2% 5%;
     padding: 5px; /*TRouBLe*/
     width: 20%
 }
 
+ul img {
+   float: none;
+    width: 5%;
+    margin:0;
+}
 
 
 

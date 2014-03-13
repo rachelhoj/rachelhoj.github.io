@@ -34,13 +34,6 @@ nav li{
     padding: 5px;
 }
 
-aside{
-    background-color: #ffffff;
-    float: left;
-    margin: 0 0 10px 5%;
-    width: 20%;
-}
-
 li{
 padding: 0;
 margin: 0;
@@ -53,7 +46,8 @@ margin: 0;
 article h1{
 float:left;
 width: 100%;
-padding: 10px;
+padding-right: 10px;
+padding-left: 10px;
 margin: 5px;
 }
 
@@ -113,7 +107,7 @@ footer {
 
 footer nav{
     float: left;
-    width: 75%
+    width: 75%;
 }
 
 footer p{
@@ -145,17 +139,17 @@ header h1 {
 }
 
 header h2 {
-    font size: 50px;
+    font-size: 30px;
     font-weight: 600;
     color: #652C90;
 }
 
 header nav{
-    background-color: #262261
+    background-color: #262261;
 }
 
 nav li {
-    color: #ffffff
+    color: #ffffff;
 }
 
 header a{
@@ -189,13 +183,14 @@ article h4{
     line-height: 30px;
     color: #262261;
 }
-/*article p{
+
+article{
     font-size: 16px;
     line-height: 20px;
-    margin-top: 4px;
-    float: left;
     color: #000000;
-}*/
+    float: left;    
+}
+
 
 footer{ 
     background: #262261;
@@ -218,7 +213,7 @@ nav a {
     color: #ffffff;
 }
 
-nav a: hover{
+nav a:hover{
     color: #652C90;
 }
 
@@ -228,7 +223,7 @@ nav a: hover{
 header img {
     float: left;
     margin: 0 1% 0 1%;
-    padding: 5px; /*Trouble*/
+    padding: 10px; /*Trouble*/
     width: 20%;
 }
 
@@ -239,7 +234,7 @@ width: 40%;
 
 article img{
     margin: 10px;
-    width: 100%%;
+    width: 100%;
 }
 
 figcaption {

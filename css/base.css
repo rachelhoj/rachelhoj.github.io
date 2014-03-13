@@ -1,24 +1,12 @@
 /*Layout Rules*/
-body {
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
-}
-
-header {
-    width: 100%;
-    background-color: #ffffff;
-    color: #000000;
-    height: 45px;
-}
-
 header h1 {
     width: 100%;
     height: 50px;
     padding: 75px 0px 0px 0px; /*TRouBLe*/
     margin: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
+/* When I move the browser to make it smaller my first and last name cram on top of each other and I can't figure out how to fix it*/
 
 header h2{
     width: 100%;
@@ -148,6 +136,7 @@ font-weight:800;
 font-style: italic;
 font-weight:500;    
 }
+
 header h1 {
     font-size: 70px;
     font-weight: 600;
@@ -171,12 +160,6 @@ nav li {
 
 header a{
 color: #ffffff;
-}
-
-<!--I can't get this to happen in the preview so I don't know if it is working-->
-
-header a: hover {
-color: #652C90;
 }
 
 article h1{
@@ -230,10 +213,17 @@ footer p {
 }
 
 /*Link Rules*/
+
 nav a {
-    color: #ffffff
+    color: #ffffff;
 }
+
+nav a: hover{
+    color: #652C90;
+}
+
 /*Image Rules*/
+/*I am unsure if the hover is working because it will not show me in my brakets preview and I do not know how to preview in github*/
 
 header img {
     float: left;
@@ -242,11 +232,20 @@ header img {
     width: 20%;
 }
 
+figure{
+float: left;
+width: 40%;
+}
+
 article img{
-    float: left;
     margin: 10px;
-    width: 30%%;
-    padding-right: 10px;
+    width: 100%%;
+}
+
+figcaption {
+float: left;
+font-size: 10px;
+line-height:12px
 }
 
 ul img {

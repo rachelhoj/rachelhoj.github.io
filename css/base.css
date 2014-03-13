@@ -13,16 +13,17 @@ header {
 }
 
 header h1 {
-    width: 70%;
-    float: right;
-    padding: 10px;
+    width: 100%;
+    height: 50px;
+    padding: 75px 0px 0px 0px; /*TRouBLe*/
+    margin: 0;
     margin-bottom: 0;
 }
 
 header h2{
-    width: 70%;
-    float: right;
-    padding: 10px;
+    width: 100%;
+    padding: 0;
+    padding: 0px 0px 0px 0px;
     margin-top: 0;
 }
 
@@ -52,7 +53,12 @@ aside{
     width: 20%;
 }
 
-li.bullet {
+li{
+padding: 0;
+margin: 0;
+}
+
+.bullet {
     list-style-type:circle;
 }
 
@@ -66,28 +72,29 @@ margin: 5px;
 article h2{
 float: left;
 width: 100%;
-padding: 5px;
+padding: 10px;
 margin: 5px;
 }
 
 article h3{
     float: left;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
 }
 
 article h4{
     float: left;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
 }
 
 article{
     float: left;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
+    width: 100%;
 }
 
 
@@ -111,6 +118,7 @@ div.contact{
 }
 
 footer {
+    float: left;
     width: 100%;  
     padding: 0 10px 0 10px;
 }
@@ -132,15 +140,23 @@ body {
     line-height: 24px;
 }
 
+.bold {
+font-weight:800;
+}
+
+.italics{
+font-style: italic;
+font-weight:500;    
+}
 header h1 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
     color: #652C90;
     background-color: #ffffff
 }
 
 header h2 {
-    font size: 25px;
+    font size: 50px;
     font-weight: 600;
     color: #652C90;
 }
@@ -151,6 +167,16 @@ header nav{
 
 nav li {
     color: #ffffff
+}
+
+header a{
+color: #ffffff;
+}
+
+<!--I can't get this to happen in the preview so I don't know if it is working-->
+
+header a: hover {
+color: #652C90;
 }
 
 article h1{
@@ -188,9 +214,8 @@ article h4{
     color: #000000;
 }*/
 
-/*I wanted to put the background color in the footer note but it wouldn't work so I split it up between footer nav and footer p*/
-
 footer{ 
+    background: #262261;
     background-color: #262261;
     font-size: 12px;
 }
@@ -219,9 +244,9 @@ header img {
 
 article img{
     float: left;
-    margin: 0 5% 2% 5%;
-    padding: 5px; /*TRouBLe*/
-    width: 20%
+    margin: 10px;
+    width: 30%%;
+    padding-right: 10px;
 }
 
 ul img {

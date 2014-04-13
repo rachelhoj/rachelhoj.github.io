@@ -2,15 +2,20 @@
 
 header{
 height: 250px;
-width: 100%    
+width: 100%;
+margin: 0px;
 }
 
 
 header h1 {
-    padding: 75px 0px 0px 0px; /*TRouBLe*/
-    margin: 0;
-    margin-bottom: 10px;
+    padding: 75px 0px 5px 0px; /*TRouBLe*/
+    margin-top: 0px;
 }
+
+header h2 {
+padding: 0px 0px 5px 0px;
+}
+
 /* When I move the browser to make it smaller my first and last name cram on top of each other and I can't figure out how to fix it*/
 
 nav {
@@ -144,7 +149,7 @@ font-weight:600;
 }
 
 header h1 {
-    font-size: 90px;
+    font-size: 75px;
     font-weight: 600;
     color: #652C90;
     background-color: #ffffff;
@@ -244,7 +249,6 @@ nav a:hover{
 header img {
     float: left;
     margin: 0 1% 0 1%;
-    padding: 10px; /*Trouble*/
     width: 20%;
 }
 

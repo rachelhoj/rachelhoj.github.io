@@ -1,5 +1,9 @@
 /*Layout Rules*/
 
+body {
+max-width: 950px;
+}
+
 header{
 height: 250px;
 width: 100%;
@@ -8,7 +12,7 @@ margin: 0px;
 
 
 header h1 {
-    padding: 75px 0px 5px 0px; /*TRouBLe*/
+    padding: 70px 0px 5px 0px; /*TRouBLe*/
     margin-top: 0px;
 }
 
@@ -44,30 +48,22 @@ nav li{
 article h1{
 float:left;
 width: 100%;
-padding-right: 10px;
-padding-left: 10px;
-margin: 5px;
+padding: 10px 0px 10px 5px; /*TRouBLe*/
+margin: 5px 5px 10px 5px; /*TRouBLe*/
 }
 
 article h2{
 float: left;
 width: 100%;
-padding: 10px;
-margin: 5px;
+padding: 10px 0px 10px 5px; /*TRouBLe*/
+margin: 5px 5px 10px 5px; /*TRouBLe*/
 }
 
 article h3{
-    float: left;
-    width: 100%;
-    padding: 10px;
-    margin: 5px;
-}
-
-article h4{
-    float: left;
-    width: 100%;
-    padding: 10px;
-    margin: 5px;
+float: left;
+width: 100%;
+padding: 10px 0px 10px 5px; /*TRouBLe*/
+margin: 5px 5px 10px 5px; /*TRouBLe*/
 }
 
 article{
@@ -80,11 +76,13 @@ article{
 article p{
 margin-left: 30px;
 padding-right: 5px;
+margin-right: 30px;
+margin-top: 10px;
 }
 
 article li{
     list-style-type: none;
-    margin: 0;
+    margin: 0px 30px 0px 30px; /*TRouBLe*/
     padding: 0;
 }
 
@@ -122,18 +120,25 @@ padding-left: 260px;
 padding-top: 20px;   
 }
 
+ul.unitedway{
+width: 80%; 
+padding-left: 260px;
+padding-top: 20px;
+margin-top: 70px; 
+}
+
 ul.skills {
 padding-top: 85px;
 }
 
 ul.umbra {
-padding-left: 258px;
+padding-left: 290px;
 }
 
 /*Font and Background Color Rules*/
 body {
     font-family:"Century Gothic", "Avante Garde", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
 }
 
@@ -181,7 +186,6 @@ article h1{
     font-weight:600;
     line-height: 50px;
     color: #652C90;
-    padding: 10px 0px 10px 5px; /*TRouBLe*/
     text-shadow: 2px 2px 2px #262261;
 }
 
@@ -189,7 +193,6 @@ article h2{
     font-size: 40px;
     font-weight: 600;
     color: #262261;
-    padding: 5px;
     line-height: 30px;
         
 }
@@ -202,15 +205,8 @@ article h3{
     
 }
 
-article h4{
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    color: #262261;
-}
-
 article{
-    font-size: 16px;
+    font-size: 17px;
     line-height: 20px;
     color: #000000;
     float: left;
@@ -250,6 +246,7 @@ header img {
     float: left;
     margin: 0 1% 0 1%;
     width: 20%;
+    padding: 10px;
 }
 
 figure{

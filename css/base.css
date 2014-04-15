@@ -5,22 +5,20 @@ max-width: 960px;
 }
 
 header{
-height: 250px;
 width: 100%;
 margin: 0px;
 }
 
-
 header h1 {
-    padding: 35px 0px 5px 0px; /*TRouBLe*/
     margin-top: 0px;
+    margin-bottom: 0px;
     width: 75%;
     float: right;
 }
 
 header h2 {
-padding: 0px 0px 5px 0px;
 margin-top: 0px;
+margin-bottom: 0px;
 width: 75%;
 float: right;
 }
@@ -30,7 +28,6 @@ float: right;
 nav {
     float: left;
     width: 100%;
-    height: 15%;
     padding: 0px;
 }
 
@@ -95,7 +92,6 @@ article li{
 aside {
 float: left;
 width: 30%;
-
 }
 
 
@@ -145,7 +141,6 @@ padding-left: 290px;
 body {
     font-family:"Century Gothic", "Avante Garde", sans-serif;
     font-size: 17px;
-    line-height: 24px;
 }
 
 .bold {
@@ -252,7 +247,7 @@ header img {
     float: left;
     margin: 0 1% 0 1%;
     width: 20%;
-    padding: 10px;
+  
 }
 
 figure{
@@ -295,19 +290,7 @@ float: none;
 /*Multidevice rules*/
 /*iphone*/
 @media screen and (max-device-width:480px){
-.small {
-float: none;
-}
 
-.picture {
-padding: 0px; 
-float: left;
-}
-    
-header nav{
-height: 20%;
-}
-    
 aside{
 width: 100%;
 }    

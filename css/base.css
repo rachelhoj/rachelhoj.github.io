@@ -44,6 +44,17 @@ nav li{
     padding: 5px;
 }
 
+.dropdown{
+    left: -9999em;
+    position: absolute;
+    z-index: 1000;
+}
+
+.dropdown li:hover ul{
+display: block; 
+left: auto;
+}
+
 .bullet {
     list-style-type:circle;
 }

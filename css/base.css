@@ -32,7 +32,7 @@ nav {
 }
 
 nav ul {
-    width: 100%;
+    width: auto;
     list-style-type: none;
     margin-top: 5px; 
     padding: 0;
@@ -48,11 +48,13 @@ nav li{
     left: -9999em;
     position: absolute;
     z-index: 1000;
+    margin: 0 2% 0 2%; /*TRouBLe*/
 }
 
 .headernav li:hover ul{
 display: block;
 left: auto;
+list-style-position: outside;
 }
 
 .bullet {
@@ -246,9 +248,13 @@ nav a {
 }
 
 nav a:hover{
+background-color: #652C90;
+}
+
+/*nav a:hover{
     border-style: solid;
     color: #ffffff;
-}
+}*/
 
 /*Image Rules*/
 /*I am unsure if the hover is working because it will not show me in my brackets preview and I do not know how to preview in github*/
@@ -268,6 +274,9 @@ width: 25%;
 article img{
     margin: 10px;
     width: 100%;
+    -moz-box-shadow: 2px 2px 6px #000000;
+    -webkit-box-shadow: 2px 2px 6px #000000;
+    box-shadow: 3px 3px 6px #000000;
 }
 
 figure.small {
@@ -277,7 +286,7 @@ float: left;
 }
 
 figure.blog {
-width: 75%;
+width: 75%;  
 }
 
 figcaption {

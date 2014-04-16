@@ -288,8 +288,10 @@ float: none;
 
 /*Multidevice rules*/
 
+/*Remember to chane these back to max-device-width to work in browser and on devices*/
+
 /*iPad or Tablet*/
-@media only screen and (max-device-width:775px){
+@media only screen and (max-width:775px){
 
 header h1{
 font-size: 3em;
@@ -346,8 +348,8 @@ padding: 0px;
     
 }
 
-/*iphone or smartphone*/
-@media only screen and (max-device-width:480px){
+/*iphone or smartphone landscape*/
+@media only screen (max-width:480px){
 
 /*font rules*/    
 header h1 {
@@ -406,4 +408,65 @@ padding: 0px;
 
 }    
 
+/*iphone or smartphone portrait*/
+@media only screen (max-device-width:320px){
 
+/*font rules*/    
+header h1 {
+font-size: 1.4em;
+ text-shadow: 2px 2px 2px #262261;    
+}
+
+header h2{
+font-size: 1em;
+}    
+
+header nav{
+font-size: .5em;
+}   
+    
+article {
+font-size: .7em;
+}   
+
+article h1{
+font-size: 1.2em;
+}
+
+article h2{
+font-size: 1em;
+}    
+
+.bold{
+font-size: .8em;
+}  
+    
+/*layout rules*/    
+aside{
+width: 100%;
+}    
+
+aside img{
+width: 60%;
+}
+    
+ul.picture{
+width: 100%;
+margin: 0px;
+padding: 0px;
+float: left;
+}    
+
+ul.unitedway{
+padding: 0px;
+    
+}
+
+ul.umbra{
+padding: 0px;    
+}
+
+img.hide{
+display: none;
+}
+}    

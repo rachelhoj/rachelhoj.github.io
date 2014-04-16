@@ -411,35 +411,7 @@ padding: 0px;
 /*iphone or smartphone portrait*/
 @media only screen (max-device-width:320px){
 
-/*font rules*/    
-header h1 {
-font-size: 1.4em;
- text-shadow: 2px 2px 2px #262261;    
-}
 
-header h2{
-font-size: 1em;
-}    
-
-header nav{
-font-size: .5em;
-}   
-    
-article {
-font-size: .7em;
-}   
-
-article h1{
-font-size: 1.2em;
-}
-
-article h2{
-font-size: 1em;
-}    
-
-.bold{
-font-size: .8em;
-}  
     
 /*layout rules*/    
 aside{
@@ -466,7 +438,7 @@ ul.umbra{
 padding: 0px;    
 }
 
-img.hide{
+.hide{
 display: none;
 }
 }    

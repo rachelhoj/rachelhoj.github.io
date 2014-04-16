@@ -411,9 +411,6 @@ padding: 0px;
 /*iphone or smartphone portrait*/
 @media only screen (max-device-width:320px){
 
-/*iPad or Tablet*/
-@media only screen and (max-width:775px){
-
 header h1{
 font-size: 3em;
 }
@@ -470,4 +467,5 @@ padding: 0px;
 .hide{
 display: none;
 }
+    
 }    

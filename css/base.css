@@ -140,7 +140,7 @@ padding-left: 290px;
 /*Font and Background Color Rules*/
 body {
     font-family:"Century Gothic", "Avante Garde", sans-serif;
-    font-size: 17px;
+    font-size: 100%;
 }
 
 .bold {
@@ -155,8 +155,7 @@ font-weight:600;
 }
 
 header h1 {
-    font-size: 75px;
-    font-weight: 600;
+    font-size: 4em;
     color: #652C90;
     background-color: #ffffff;
     text-shadow: 4px 4px 4px #262261;
@@ -288,13 +287,123 @@ float: none;
 }
 
 /*Multidevice rules*/
-/*iphone*/
-@media screen and (max-device-width:480px){
 
+/*iPad or Tablet*/
+@media only screen and (max-width:775px) {
+
+header h1{
+font-size: 3em;
+}
+
+header h2{
+font-size: 2em;
+}
+    
+header nav{
+font-size: .75em;
+}
+
+article{
+font-size: 1em;
+}    
+
+article h1{
+font-size: 2em;
+}
+    
+article h2{
+font-size: 1.6em;
+}
+    
+.bold{
+font-size: 1.4em;
+} 
+
+/*layout rules*/    
 aside{
 width: 100%;
 }    
+
+aside img{
+width: 60%;
+}
     
+ul.picture{
+width: 100%;
+margin: 0px;
+padding: 0px;
+float: left;
+}    
+
+ul.unitedway{
+padding: 0px;
+    
+}
+
+ul.umbra{
+padding: 0px;    
+}    
+    
+}
+
+/*iphone or smartphone*/
+@media only screen and (max-width:480px){
+
+/*font rules*/    
+header h1 {
+font-size: 2.4em;
+ text-shadow: 3px 3px 3px #262261;    
+}
+
+header h2{
+font-size: 1.8em;
+}    
+
+header nav{
+font-size: .7em;
+}   
+    
+article {
+font-size: .9em;
+}   
+
+article h1{
+font-size: 1.8em;
+}
+
+article h2{
+font-size: 1.4em;
+}    
+
+.bold{
+font-size: 1.2em;
+}  
+    
+/*layout rules*/    
+aside{
+width: 100%;
+}    
+
+aside img{
+width: 60%;
+}
+    
+ul.picture{
+width: 100%;
+margin: 0px;
+padding: 0px;
+float: left;
+}    
+
+ul.unitedway{
+padding: 0px;
+    
+}
+
+ul.umbra{
+padding: 0px;    
+}
+
 }    
 
 

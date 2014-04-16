@@ -289,7 +289,7 @@ float: none;
 /*Multidevice rules*/
 
 /*iPad or Tablet*/
-@media only screen and (max-width:775px) {
+@media only screen and (max-device-width:775px){
 
 header h1{
 font-size: 3em;
@@ -347,7 +347,7 @@ padding: 0px;
 }
 
 /*iphone or smartphone*/
-@media only screen and (max-width:480px){
+@media only screen and (max-device-width:480px){
 
 /*font rules*/    
 header h1 {

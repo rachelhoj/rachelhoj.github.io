@@ -470,18 +470,20 @@ width: 60%;
     
 ul.picture{
 width: 100%;
-margin: 0px;
+margin-bottom: 5px;
 padding: 5px 0px 5px 0px; /*TRouBLe*/
 float: left;
 }    
 
 ul.unitedway{
 padding: 5px 0px 5px 0px; /*TRouBLe*/
+margin-bottom: 5px;
     
 }
 
 ul.umbra{
 padding: 5px 0px 5px 0px; /*TRouBLe*/  
+margin-bottom: 5px;
 }
 
 .hide{

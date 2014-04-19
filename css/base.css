@@ -489,5 +489,8 @@ margin-bottom: 5px;
 .hide{
 display: none;
 }
-    
+
+li{
+margin: 5px 0px 5px 0px /*TRouBLe*/ 
+}
 }    

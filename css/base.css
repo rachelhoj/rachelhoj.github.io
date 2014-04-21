@@ -305,6 +305,10 @@ ul img {
 float: none;
 }
 
+.right{
+float:right;
+}
+
 /*Multidevice rules*/
 
 /*Remember to chane these back to max-device-width to work in browser and on devices*/

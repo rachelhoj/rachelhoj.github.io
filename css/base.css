@@ -21,7 +21,6 @@ float: right;
 nav {
     float: left;
     width: 100%;
-    padding: 0px;
 }
 
 nav ul {
@@ -177,9 +176,7 @@ article h1{
 article h2{
     font-size: 40px;
     font-weight: 600;
-    color: #262261;
-    line-height: 30px;
-        
+    color: #262261;       
 }
 
 article h3{
@@ -234,14 +231,11 @@ width: 25%;
 article img{
     margin: 10px;
     width: 100%;
-    -moz-box-shadow: 2px 2px 6px #000000;
-    -webkit-box-shadow: 2px 2px 6px #000000;
     box-shadow: 3px 3px 6px #000000;
 }
 
 figure.small {
 width: 75%;
-padding: 0px;
 float: left;
 }
 
@@ -251,13 +245,11 @@ float: none;
 }
 
 figcaption {
-
 font-size: 10px;
 line-height:12px;
 }
 
 ul img {
-   float: none;
     width: 5%;
     margin:0;
 }
@@ -365,4 +357,3 @@ float: left;
 }    
 
 }    
-

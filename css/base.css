@@ -4,11 +4,6 @@
 max-width: 960px;
 }
 
-header{
-width: 100%;
-margin: 0px;
-}
-
 header h1 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -22,8 +17,6 @@ margin-bottom: 0px;
 width: 75%;
 float: right;
 }
-
-/* When I move the browser to make it smaller my first and last name cram on top of each other and I can't figure out how to fix it*/
 
 nav {
     float: left;
@@ -48,6 +41,7 @@ nav li{
     position: absolute;
     z-index: 1000;
     margin: 0 2% 0 2%; /*TRouBLe*/
+    width: 70%;
 }
 
 .headernav li:hover ul{
@@ -115,7 +109,6 @@ div.contact{
 footer {
     float: left;
     width: 100%;  
-    padding: 0 10px 0 10px;
 }
 
 footer nav{
@@ -134,19 +127,9 @@ padding-left: 260px;
 padding-top: 20px;   
 }
 
-ul.unitedway{
-width: 80%; 
-padding-left: 260px;
-padding-top: 20px;
-margin-top: 70px; 
-}
 
 ul.skills {
 padding-top: 85px;
-}
-
-ul.umbra {
-padding-left: 290px;
 }
 
 /*Font and Background Color Rules*/
@@ -181,16 +164,12 @@ header h2 {
 }
 
 header nav{
-    padding: 10px 0px 5px 0px;
+    padding: 10px 0px 5px 0px; /*TRouBLe*/
     background-color: #262261;
 }
 
 nav li {
     color: #ffffff;
-}
-
-header a{
-color: #ffffff;
 }
 
 article h1{
@@ -231,12 +210,7 @@ footer{
     font-size: 12px;
 }
 
-footer nav {
-    background-color: #262261;
-}
-
 footer p {
-    background-color: #262261;
     color: #ffffff
 }
 
@@ -250,19 +224,12 @@ nav a:hover{
 background-color: #652C90;
 }
 
-/*nav a:hover{
-    border-style: solid;
-    color: #ffffff;
-}*/
-
 /*Image Rules*/
-/*I am unsure if the hover is working because it will not show me in my brackets preview and I do not know how to preview in github*/
 
 header img {
     float: left;
     margin: 0 1% 0 1%;
     width: 20%;
-  
 }
 
 figure{
@@ -285,7 +252,8 @@ float: left;
 }
 
 figure.blog {
-width: 75%;  
+width: 75%; 
+float: none;    
 }
 
 figcaption {
@@ -301,17 +269,13 @@ ul img {
     margin:0;
 }
 
-.blog {
-float: none;
-}
-
 .right{
 float:right;
 }
 
 /*Multidevice rules*/
 
-/*Remember to chane these back to max-device-width to work in browser and on devices*/
+/*Remember to change these back to max-device-width to work in browser and on devices*/
 
 /*iPad or Tablet*/
 @media only screen and (max-width:775px){
@@ -358,16 +322,7 @@ width: 100%;
 margin: 0px;
 padding: 0px;
 float: left;
-}    
-
-ul.unitedway{
-padding: 0px;
-    
-}
-
-ul.umbra{
-padding: 0px;    
-}    
+}      
     
 }
 
@@ -420,15 +375,6 @@ padding: 0px;
 float: left;
 }    
 
-ul.unitedway{
-padding: 0px;
-    
-}
-
-ul.umbra{
-padding: 0px;    
-}
-
 }    
 
 /*iphone or smartphone portrait*/
@@ -477,17 +423,6 @@ margin-bottom: 5px;
 padding: 5px 0px 5px 0px; /*TRouBLe*/
 float: left;
 }    
-
-ul.unitedway{
-padding: 5px 0px 5px 0px; /*TRouBLe*/
-margin-bottom: 5px;
-    
-}
-
-ul.umbra{
-padding: 5px 0px 5px 0px; /*TRouBLe*/  
-margin-bottom: 5px;
-}
 
 .hide{
 display: none;

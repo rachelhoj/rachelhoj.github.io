@@ -120,11 +120,6 @@ padding-left: 260px;
 padding-top: 20px;   
 }
 
-
-ul.skills {
-padding-top: 85px;
-}
-
 /*Font and Background Color Rules*/
 body {
     font-family:"Century Gothic", "Avante Garde", sans-serif;
@@ -167,7 +162,6 @@ nav li {
 
 article h1{
     font-size: 60px;
-    font-weight:600;
     line-height: 50px;
     color: #652C90;
     text-shadow: 2px 2px 2px #262261;
@@ -175,16 +169,12 @@ article h1{
 
 article h2{
     font-size: 40px;
-    font-weight: 600;
     color: #262261;       
 }
 
 article h3{
     font-size: 25px;
-    font-weight: 600;
-    line-height: 30px;
     color: #652C90;
-    
 }
 
 article{

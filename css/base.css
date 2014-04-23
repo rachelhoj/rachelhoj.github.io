@@ -4,22 +4,13 @@
 max-width: 960px;
 }
 
-header h1 {
+header h1, header h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     width: 75%;
-    float: right;
-}
-
-header h2 {
-margin-top: 0px;
-margin-bottom: 0px;
-width: 75%;
-float: right;
 }
 
 nav {
-    float: left;
     width: 100%;
 }
 
@@ -53,39 +44,21 @@ list-style-position: outside;
     list-style-type:circle;
 }
 
-article h1{
+article h1, article h2, article h3{
 float:left;
 width: 100%;
 padding: 10px 0px 10px 5px; /*TRouBLe*/
 margin: 5px 5px 10px 5px; /*TRouBLe*/
 }
 
-article h2{
-float: left;
-width: 100%;
-padding: 10px 0px 10px 5px; /*TRouBLe*/
-margin: 5px 5px 10px 5px; /*TRouBLe*/
-}
-
-article h3{
-float: left;
-width: 100%;
-padding: 10px 0px 10px 5px; /*TRouBLe*/
-margin: 5px 5px 10px 5px; /*TRouBLe*/
-}
-
 article{
-    float: left;
     padding: 10px;
     margin: 5px;
     width: 100%;
 }
 
 article p{
-margin-left: 30px;
-padding-right: 5px;
-margin-right: 30px;
-margin-top: 10px;
+margin: 10px 30px 0px 30px /*TRouBLe*/
 }
 
 article li{
@@ -95,23 +68,19 @@ article li{
 }
 
 aside {
-float: left;
 width: 30%;
 }
 
 footer {
-    float: left;
     width: 100%;  
 }
 
 footer nav{
-    float: left;
     width: 75%;
 }
 
 footer p{
     width: 25%;
-    float: right;
 }
 
 ul.picture{
@@ -156,10 +125,6 @@ header nav{
     background-color: #262261;
 }
 
-nav li {
-    color: #ffffff;
-}
-
 article h1{
     font-size: 60px;
     line-height: 50px;
@@ -181,25 +146,19 @@ article{
     font-size: 17px;
     line-height: 20px;
     color: #000000;
-    float: left;
 }
 
 
 footer{ 
     background: #262261;
-    background-color: #262261;
     font-size: 12px;
 }
 
-footer p {
+footer p, nav a, nav li {
     color: #ffffff
 }
 
 /*Link Rules*/
-
-nav a {
-    color: #ffffff;
-}
 
 nav a:hover{
 background-color: #652C90;
@@ -208,13 +167,11 @@ background-color: #652C90;
 /*Image Rules*/
 
 header img {
-    float: left;
     margin: 0 1% 0 1%;
     width: 20%;
 }
 
 figure{
-float: left;
 width: 25%;
 }
 
@@ -248,102 +205,75 @@ ul img {
 float:right;
 }
 
+.left{
+float: left;
+}
+
 /*Multidevice rules*/
-
-/*Remember to change these back to max-device-width to work in browser and on devices*/
-
 /*iPad or Tablet*/
-@media only screen and (max-width:775px){
+@media only screen and (max-device-width:775px){
 
 header h1{
-font-size: 3em;
-}
+font-size: 3em;}
 
-header h2{
-font-size: 2em;
-}
+header h2, article h1{
+font-size: 2em;}
     
 nav{
-font-size: .55em;
-}
-
-article h1{
-font-size: 2em;
-}
+font-size: .55em;}
     
 article h2{
-font-size: 1.6em;
-}
+font-size: 1.6em;}
     
 .bold{
-font-size: 1.4em;
-} 
+font-size: 1.4em;} 
 
 /*layout rules*/    
 aside{
-width: 100%;
-}    
+width: 100%;}    
 
 aside img{
-width: 60%;
-}
+width: 60%;}
     
 ul.picture{
 width: 100%;
 margin: 0px;
 padding: 0px;
-float: left;
-}      
-    
+float: left;}      
 }
 
 /*iphone or smartphone landscape*/
-@media only screen (max-width:480px){
-
+@media only screen (max-device-width:480px){
 /*font rules*/    
 header h1 {
 font-size: 2.4em;
- text-shadow: 3px 3px 3px #262261;    
-}
+ text-shadow: 3px 3px 3px #262261;}
 
-header h2{
-font-size: 1.8em;
-}    
+header h2, article h1{
+font-size: 1.8em;}    
 
 header nav{
-font-size: .7em;
-}   
+font-size: .7em;}   
     
 article {
-font-size: .9em;
-}   
-
-article h1{
-font-size: 1.8em;
-}
+font-size: .9em;}   
 
 article h2{
-font-size: 1.4em;
-}    
+font-size: 1.4em;}    
 
 .bold{
-font-size: 1.2em;
-}  
+font-size: 1.2em;}  
     
 /*layout rules*/    
 aside{
-width: 100%;
-}    
+width: 100%;}    
 
 aside img{
-width: 60%;
-}
+width: 60%;}
     
 ul.picture{
 width: 100%;
 margin: 0px;
 padding: 0px;
-float: left;
-}    
-
+float: left;}    
 }    

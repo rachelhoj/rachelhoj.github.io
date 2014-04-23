@@ -169,6 +169,7 @@ background-color: #652C90;
 header img {
     margin: 0 1% 0 1%;
     width: 20%;
+    float: left;
 }
 
 figure{
@@ -211,7 +212,7 @@ float: left;
 
 /*Multidevice rules*/
 /*iPad or Tablet*/
-@media only screen and (max-device-width:775px){
+@media only screen and (max-width:775px){
 
 header h1{
 font-size: 3em;}
@@ -243,7 +244,7 @@ float: left;}
 }
 
 /*iphone or smartphone landscape*/
-@media only screen (max-device-width:480px){
+@media only screen (max-width:480px){
 /*font rules*/    
 header h1 {
 font-size: 2.4em;

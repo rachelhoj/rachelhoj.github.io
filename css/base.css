@@ -26,19 +26,6 @@ nav li{
     padding: 5px;
 }
 
-.headernav li ul{
-    left: -9999em;
-    position: absolute;
-    z-index: 1000;
-    margin: 0 2% 0 2%; /*TRouBLe*/
-    width: 70%;
-}
-
-.headernav li:hover ul{
-display: block;
-left: auto;
-list-style-position: outside;
-}
 
 .bullet {
     list-style-type:circle;
@@ -221,7 +208,7 @@ header h2, article h1{
 font-size: 2em;}
     
 nav{
-font-size: .55em;}
+font-size: 1em;}
     
 article h2{
 font-size: 1.6em;}

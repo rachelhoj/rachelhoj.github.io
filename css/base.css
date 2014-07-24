@@ -1,7 +1,7 @@
 /*Layout Rules*/
 
 #wrapper {
-max-width: 960px;
+max-width: 100%;
 }
 
 header h1, header h2 {
@@ -26,10 +26,12 @@ nav li{
     padding: 5px;
 }
 
+footer nav{
+
+}
 
 .bullet {
     list-style-type:circle;
-    float: left;
 }
 
 article h1, article h2, article h3{
@@ -59,21 +61,20 @@ aside.index{
 width: 50%;
 float: right;
 }
+
 aside {
 width: 30%;
 }
 
-footer {
-    width: 100%;  
-}
-
 footer nav{
-    width: 75%;
+    width: 80%;
+   
 }
 
 footer p{
     width: 25%;
 }
+
 
 ul.picture{
 width: 80%; 
@@ -81,16 +82,20 @@ padding-left: 260px;
 padding-top: 20px;   
 }
 
+footer{
+width: 100%;
+}
+
+
 /*Font and Background Color Rules*/
 body {
-    font-family:"Century Gothic", "Avante Garde", sans-serif;
-    font-size: 100%;
+font-family:"Century Gothic", "Avante Garde", sans-serif;
+font-size: 100%;
 }
 
 .bold {
 font-weight:800;
-font-size: 25px;
-    
+font-size: 25px; 
 }
 
 .italics{
@@ -139,7 +144,6 @@ article{
     line-height: 20px;
     color: #000000;
 }
-
 
 footer{ 
     background: #262261;

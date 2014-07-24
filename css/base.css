@@ -29,6 +29,7 @@ nav li{
 
 .bullet {
     list-style-type:circle;
+    float: left;
 }
 
 article h1, article h2, article h3{
@@ -54,6 +55,10 @@ article li{
     padding: 0;
 }
 
+aside.index{
+width: 50%;
+float: right;
+}
 aside {
 width: 30%;
 }
@@ -163,6 +168,7 @@ figure{
 width: 25%;
 }
 
+
 article img{
     margin: 10px;
     width: 100%;
@@ -196,6 +202,7 @@ float:right;
 .left{
 float: left;
 }
+
 
 /*Multidevice rules*/
 /*iPad or Tablet*/

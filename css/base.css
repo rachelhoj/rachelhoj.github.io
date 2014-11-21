@@ -207,22 +207,26 @@ float:right;
 float: left;
 }
 
-
 /*Multidevice rules*/
 /*iPad or Tablet*/
 @media only screen and (max-width:775px){
 
+
 header h1{
 font-size: 3em;}
 
-header h2, article h1{
+header h2 {
+font-size: 2em;} 
+    
+article h1{
 font-size: 2em;}
     
 nav{
 font-size: 1em;}
     
 article h2{
-font-size: 1.6em;}
+font-size: 1.6em;
+}
     
 .bold{
 font-size: 1.4em;} 
